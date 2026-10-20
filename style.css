@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    color: #1e293b;
+    min-height: 100vh;
+    padding: 25px 15px;
+    line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    margin: 20px auto 30px;
+}
+
+.header h2 {
+    font-size: 32px;
+    color: #243b80;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #64748b;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.faq-item.active {
+    border-color: #6366f1;
+    box-shadow: 0 5px 16px rgba(99, 102, 241, 0.12);
+}
+
+.faq-question {
+    width: 100%;
+    border: none;
+    background: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #243b80;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.faq-question:hover {
+    background: #f8faff;
+}
+
+.faq-question:focus-visible,
+.toggle-all:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #f97316;
+    flex-shrink: 0;
+}
+
+.faq-answer {
+    padding: 0 20px 20px;
+    color: #475569;
+    font-size: 15px;
+}
+
+.faq-answer p {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+}
+
+.toggle-all {
+    display: block;
+    margin: 25px auto;
+    padding: 12px 22px;
+    background: #f97316;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.toggle-all:hover {
+    background: #ea580c;
+}
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    color: #64748b;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px 12px;
+    }
+
+    .header h2 {
+        font-size: 26px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    .faq-question {
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .faq-answer {
+        padding: 0 16px 16px;
+        font-size: 14px;
+    }
+
+    .toggle-all {
+        width: 100%;
+    }
+}

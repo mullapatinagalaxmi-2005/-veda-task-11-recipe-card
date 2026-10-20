@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive FAQ Accordion built using HTML, CSS and JavaScript.">
+    <title>FAQ Accordion | Veda Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h2>FAQ Accordion</h2>
+        <p>Find answers to your frequently asked questions.</p>
+    </header>
+
+    <main class="container">
+        <section class="faq-section" aria-label="Frequently asked questions">
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>1. What is HTML?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>HTML stands for HyperText Markup Language. It is used to create the structure of web pages.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>2. What is CSS?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>CSS stands for Cascading Style Sheets. It controls the appearance, layout and design of web pages.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>3. What is JavaScript?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>JavaScript is a programming language that makes websites interactive and dynamic.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>4. What is responsive web design?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>Responsive web design makes websites adapt to different screen sizes, including mobile phones, tablets and computers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>5. What is DOM in JavaScript?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>DOM stands for Document Object Model. It allows JavaScript to access and modify HTML elements.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>6. What is an event listener?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>An event listener runs a function when an event occurs, such as a click or keyboard action.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>7. What is GitHub?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>GitHub is a platform for storing, managing and collaborating on code using Git version control.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    <span>8. What is web hosting?</span>
+                    <span class="icon" aria-hidden="true">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>Web hosting makes a website available online so people can access it through a browser.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <button id="toggleAll" class="toggle-all" type="button">
+            Expand All FAQs
+        </button>
+
+        <footer>
+            <p>Built with HTML, CSS & JavaScript</p>
+            <p>Veda Technology Internship Project</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
