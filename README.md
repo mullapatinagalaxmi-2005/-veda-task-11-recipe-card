@@ -1,43 +1,22 @@
-# Veda Technology – Task 10: FAQ Accordion
+## GitHub Repository
 
-## Project Overview
-An interactive and responsive FAQ Accordion built using HTML, CSS,
-and JavaScript as part of the Veda Technology Web Development Internship.
+**Repository:** [veda-task-11-recipe-card](https://github.com/mullapatinagalaxmi-2005/-veda-task-11-recipe-card)
 
-## Features
-- Eight frequently asked questions
-- Expandable and collapsible answers
-- Active-state styling
-- Plus and minus icons
-- Expand All and Collapse All functionality
-- Responsive mobile-friendly design
-- Accessible buttons and keyboard focus indicators
+**Project:** Veda Technology – Task 11: Recipe Card Page
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
+**Technologies:** HTML5 and CSS3
 
-## Project Structure
-- index.html – Page structure and FAQ content
-- style.css – Styling and responsive layout
-- script.js – Interactive accordion functionality
+### GitHub Pages URL
+After enabling GitHub Pages, your website URL should be:
 
-## How to Run
-1. Download or clone the repository.
-2. Open the project folder in VS Code.
-3. Open index.html in a browser.
-4. Alternatively, use the Live Server extension.
+https://mullapatinagalaxmi-2005.github.io/-veda-task-11-recipe-card/
 
-## Deployment
-This project can be deployed using GitHub Pages.
+### Commit message
+`Complete Task 11 Recipe Card Page using HTML and CSS`
 
-## Learning Outcomes
-- DOM manipulation
-- Event handling in JavaScript
-- classList.toggle()
-- Responsive web design
-- Accessible interactive components
-
-## Internship
-Veda Technology – Web Development Track
+### Next steps
+1. Upload `index.html`, `style.css`, and `README.md`.
+2. Verify the repository is public.
+3. Enable GitHub Pages under **Settings → Pages**.
+4. Share the project on LinkedIn.
+5. Submit the repository link through the Veda Technology internship portal.
